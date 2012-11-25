@@ -1,5 +1,7 @@
 require 'rspec'
 
+require 'cnname'
+
 RSpec.configure do |c|
   c.mock_with :rspec
 end
