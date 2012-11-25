@@ -8,12 +8,16 @@ Gem::Specification.new do |gem|
   gem.version       = Cnname::VERSION
   gem.authors       = ["Tower He"]
   gem.email         = ["towerhe@gmail.com"]
-  gem.description   = %q{TODO: Write a gem description}
-  gem.summary       = %q{TODO: Write a gem summary}
-  gem.homepage      = ""
+  gem.description   = %q{cnname provides support to handle the names of Chinese}
+  gem.summary       = %q{cnname provides support to handle the names of Chinese}
+  gem.homepage      = "https://github.com/towerhe/cnname"
 
   gem.files         = `git ls-files`.split($/)
   gem.executables   = gem.files.grep(%r{^bin/}).map{ |f| File.basename(f) }
   gem.test_files    = gem.files.grep(%r{^(test|spec|features)/})
   gem.require_paths = ["lib"]
+
+  gem.add_dependency 'oj'
+
+  gem.add_development_dependency 'rspec'
 end
