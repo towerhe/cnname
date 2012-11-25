@@ -1,6 +1,10 @@
 # Cnname
 
-TODO: Write a gem description
+cnname provides support to handle the names of Chinese.
+
+[![Build Status](https://secure.travis-ci.org/towerhe/cnname.png?branch=develop)](http://travis-ci.org/towerhe/cnname)
+[![Dependency Status](https://gemnasium.com/towerhe/cnname.png)](https://gemnasium.com/towerhe/cnname)
+[![Code Climate](https://codeclimate.com/badge.png)](https://codeclimate.com/github/towerhe/cnname)
 
 ## Installation
 
