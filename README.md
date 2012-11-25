@@ -1,10 +1,10 @@
 # Cnname
 
-cnname provides support to handle the names of Chinese.
-
 [![Build Status](https://secure.travis-ci.org/towerhe/cnname.png?branch=develop)](http://travis-ci.org/towerhe/cnname)
 [![Dependency Status](https://gemnasium.com/towerhe/cnname.png)](https://gemnasium.com/towerhe/cnname)
 [![Code Climate](https://codeclimate.com/badge.png)](https://codeclimate.com/github/towerhe/cnname)
+
+cnname provides support to handle the names of Chinese.
 
 ## Installation
 
@@ -22,7 +22,15 @@ Or install it yourself as:
 
 ## Usage
 
-TODO: Write usage instructions here
+```ruby
+name = Cnname::Name.new('张三')
+puts name.first_name              # => 三
+puts name.last_name               # => 张
+```
+
+Check out the specs
+[https://github.com/towerhe/cnname/blob/master/spec/cnname/name_spec.rb](https://github.com/towerhe/cnname/blob/master/spec/cnname/name_spec.rb)
+for detail.
 
 ## Contributing
 
